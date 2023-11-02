@@ -1,0 +1,12 @@
+img {
+  width: 250px;
+  height: 250px;
+ 
+  }
+  .img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
