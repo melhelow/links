@@ -1,12 +1,15 @@
 img {
-  width: 250px;
-  height: 250px;
+  width: 128px;
+  height: 128px;
  
   }
   .img-div {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 128px;
+  height: 128px;
+  object-fit: cover;
     
 
   }
