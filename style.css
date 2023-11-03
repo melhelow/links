@@ -1,17 +1,16 @@
 body {
   padding-top: 40px;
   padding-bottom: 40px;
+  
+  
 }
-img {
-  width: 128px;
-  height: 128px;
- 
-  }
+
   .banner-image {
     width: 128px;
     height: 128px;
     object-fit: cover;
     border-radius: 128px;
+    
   }
   .thumbnail {
     width: 48px;
@@ -26,6 +25,8 @@ img {
   
   .name {
     color: #fffffe;
+    display: flex;
+    justify-content: center;
   }
   
   .social-icons a {
@@ -35,9 +36,34 @@ img {
   
   .link {
     background-color: #f9bc60;
+  display: flex;
+  align-items: center;
+  padding: 5px;
   }
   
   .link a {
     color: #001e1d;
     text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
+  }
+  .items {
+    margin:auto;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 640px;
+    flex-grow: 1;
+    
+    
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
   }
